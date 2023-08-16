@@ -75,7 +75,7 @@ const Registration = () => {
                         password:""
                     })
                     setLoad(false)
-                    toast.success('🦄Rregistration Successfull! PLease verify your email', {
+                    toast.success('Rregistration Successfull! PLease verify your email', {
                         position: "bottom-center",
                         autoClose: 5000,
                         hideProgressBar: false,

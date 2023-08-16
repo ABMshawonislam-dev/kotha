@@ -31,7 +31,7 @@ let handleLogin = ()=>{
     if(user.user.emailVerified){
       navigate("/home")
     }else{
-      toast.error('Please verify your email for login', {
+      toast.error('Please verify your email for Login', {
         position: "bottom-center",
         autoClose: 5000,
         hideProgressBar: false,
