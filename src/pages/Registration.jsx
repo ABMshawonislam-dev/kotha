@@ -128,7 +128,7 @@ const Registration = () => {
     <div className='registration'>
         <div className='left'>
             <div className='text-container'>
-                <h2>Get started with easily register</h2>
+                <h2>Get started with register</h2>
                 <p>Free register and you can enjoy it</p>
                 <TextField onChange={handleChange} name="fullname" className='inputCss ' type='text' id="outlined-basic" label="Full Name" variant="outlined" value={formData.fullname}/>
                 {fullnameError && 
